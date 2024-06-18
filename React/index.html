@@ -16,13 +16,9 @@
       src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
     ></script>
     <script>
-      const heading = document.createElement("h1");
-      heading.innerHTML="Gaurav Muskan";
-      const root=document.getElementById("root");
-      const root2=document.getElementById("root");
-      const root3=document.getElementById("root");
-      root.appendChild(heading);
-   
+      const heading = React.createElement("h1",{},"Namaste Everyone!");
+      const root=ReactDOM.createRoot(document.getElementById("root"));
+      root.render(heading);
    </script>
   </body>
 </html>
