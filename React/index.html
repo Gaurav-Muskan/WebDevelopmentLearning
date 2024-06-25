@@ -6,9 +6,9 @@
     <title>Document</title>
   </head>
   <body>
-    <div id="header"><h1>Header</h1></div>
-    <div id="root"></div>
-    <div id="footer"><h1>Footer</h1></div>
+    <div id="root">
+      <h1 id="title">Hello World</h1>
+    </div>
     <script
       crossorigin
       src="https://unpkg.com/react@18/umd/react.development.js"
@@ -18,7 +18,11 @@
       src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
     ></script>
     <script>
-      const heading = React.createElement("h1",{},
+      const heading = React.createElement(
+        "h1",
+        {
+          id:"title", 
+        },
         "Namaste Everyone!"
       );
       const root = ReactDOM.createRoot(document.getElementById("root"));
