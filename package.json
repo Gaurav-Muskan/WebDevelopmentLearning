@@ -1,0 +1,26 @@
+{
+  "name": "web-dev-learnings",
+  "version": "1.0.0",
+  "description": "This is React Learning Tracker",
+  "main": " .js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gaurav-Muskan/WebDevelopmentLearning.git"
+  },
+  "keywords": [
+    "react",
+    "javascript"
+  ],
+  "author": "Gaurav Muskan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Gaurav-Muskan/WebDevelopmentLearning/issues"
+  },
+  "homepage": "https://github.com/Gaurav-Muskan/WebDevelopmentLearning#readme",
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  }
+}
